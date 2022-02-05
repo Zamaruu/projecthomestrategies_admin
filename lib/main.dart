@@ -1,4 +1,5 @@
 import 'package:fluent_ui/fluent_ui.dart';
+import 'package:projecthomestrategies_admin/pages/authentication/signin_page.dart';
 import 'package:projecthomestrategies_admin/pages/dashboard/dashboard_page.dart';
 import 'package:projecthomestrategies_admin/utils/dashboard_theme.dart';
 import 'package:projecthomestrategies_admin/widgets/navigation/dashboard_navigator.dart';
@@ -35,9 +36,10 @@ class HomeStrategiesAdmin extends StatelessWidget {
                   glowFactor: is10footScreen() ? 2.0 : 0.0,
                 ),
               ),
-              home: DashboardNavigator(
-                appTitle: appTitle,
-              ),
+              home: const SignInPage(),
+              // home: DashboardNavigator(
+              //   appTitle: appTitle,
+              // ),
             );
           },
         );

@@ -88,7 +88,9 @@ class _DashboardNavigatorState extends State<DashboardNavigator> {
             icon: const Icon(FluentIcons.open_source),
             title: const Text('Quell Code'),
             onTap: () {
-              url_launcher.launch('https://github.com/bdlukaa/fluent_ui');
+              url_launcher.launch(
+                'https://github.com/Zamaruu/projecthomestrategies_admin',
+              );
             },
           ),
         ],
