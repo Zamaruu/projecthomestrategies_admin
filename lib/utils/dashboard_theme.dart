@@ -23,7 +23,7 @@ class DashboardTheme with ChangeNotifier {
         defaultTargetPlatform == TargetPlatform.android ||
         kIsWeb) {
       return AccentColor('normal', const {
-        'normal': Color(0xFF047769),
+        'normal': Color(0xFF5670f0),
       });
     }
     return Colors.blue;
